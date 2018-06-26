@@ -1,0 +1,29 @@
+{
+  "name": "wconverter",
+  "version": "0.1.0",
+  "description": "convertidor de unidades ",
+  "main": "dist/src/converter.js",
+  "scripts": {
+    "build": "babel src/converter.js -d dist",
+    "test": "mocha",
+    " compilación: producción ": " nodo --versión "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilocas88/wconverter1.git"
+  },
+  "keywords": [
+    "converidor"
+  ],
+  "author": "Camilo Castillo <camilo.castillo88@outlook.com> (“https://dealsdevice.com/l”)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camilocas88/wconverter1/issues"
+  },
+  "homepage": "https://github.com/camilocas88/wconverter1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
